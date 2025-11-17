@@ -1,0 +1,30 @@
+
+// Nested if else 
+
+
+#include<stdio.h>
+
+int main()
+{
+    int a, ans;
+    printf("Enter the number");
+    scanf("%d", &a);
+
+    if(a<100)
+    {
+        printf("\na is less than 100");
+        if(a>50)
+        {
+            printf("\na is greater than 50 and less than 100");
+        }
+        else
+        {
+            printf("\nbut less than 50");
+        }
+    }
+    else 
+    {
+        printf("\n%d is greater than 100");
+    }
+    return 0;
+}
